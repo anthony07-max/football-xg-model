@@ -4,7 +4,7 @@ All figures below come from the executed notebook (`xg_model.ipynb`) and `result
 
 ## CV bullet points (choose 2-3)
 
-**Expected Goals (xG) Model | Python, LightGBM, scikit-learn, SHAP, mplsoccer** · github.com/<your-username>/xg-model
+**Expected Goals (xG) Model | Python, LightGBM, scikit-learn, SHAP, mplsoccer** · github.com/anthony07-max/football-xg-model
 
 - Built an expected goals model on 57,664 non-penalty shots from 2,351 matches of StatsBomb event data. I engineered geometry, assist-type and freeze-frame features (defenders in the shooting lane, goalkeeper position), cutting log loss by 10% compared with a distance-and-angle baseline.
 - Matched StatsBomb's professional xG model on 471 unseen matches (log loss 0.2584 vs 0.2577; ROC AUC 0.809 vs 0.811; difference not statistically significant on a match-level bootstrap), with better aggregate calibration (1,157 xG vs 1,159 actual goals, compared with 1,084 from StatsBomb).
@@ -29,7 +29,7 @@ What I found:
 ✅ Goal angle, distance and defenders in the shooting lane drive the predictions most (SHAP)
 ✅ Messi scored 100.5 more non-penalty goals than my model expected on 2,335 shots, 6.7 standard deviations above an average finisher. Nobody else in the data comes close.
 
-Notebook, charts and write-up are on GitHub: [link]
+Notebook, charts and write-up are on GitHub: https://github.com/anthony07-max/football-xg-model
 
 Thanks to StatsBomb for making this data freely available. I'm looking for junior data and sports analytics roles in London, so I'd love to connect with anyone working in football data.
 
