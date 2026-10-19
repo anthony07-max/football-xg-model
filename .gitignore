@@ -1,0 +1,17 @@
+# Raw/derived StatsBomb data: recreate with `python src/download_data.py`
+data/
+# Per-shot predictions derived from StatsBomb data
+results/shots_with_xg.csv
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+catboost_info/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
